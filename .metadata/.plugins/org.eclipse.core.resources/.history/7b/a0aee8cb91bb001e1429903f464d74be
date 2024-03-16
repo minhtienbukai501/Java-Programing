@@ -1,0 +1,5 @@
+package code;
+
+public class SinhVien {
+	private String maSinhVien, hoTen, lop;
+}

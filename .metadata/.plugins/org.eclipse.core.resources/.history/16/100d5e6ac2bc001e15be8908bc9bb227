@@ -1,0 +1,5 @@
+package lmtien.code;
+
+public class SinhVien {
+	private String ma, hoten;
+}

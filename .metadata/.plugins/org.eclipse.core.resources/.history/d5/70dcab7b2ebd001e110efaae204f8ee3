@@ -1,0 +1,38 @@
+package lmtien.java.code;
+
+import java.text.Format;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map;
+
+import javax.print.attribute.standard.DateTimeAtCompleted;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		try {
+			String date1 = "06/01/2000";
+			String date2 = "09/01/2000";
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/YYYY");
+			Date d1 = sdf.parse(date1);
+			Date d2 = sdf.parse(date2);
+			
+			Calendar cal = Calendar.getInstance();
+			
+			System.out.println(cal.get(d1.getDate()));
+			
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

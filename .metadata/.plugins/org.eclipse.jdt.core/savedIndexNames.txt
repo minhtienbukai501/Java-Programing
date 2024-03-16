@@ -1,0 +1,21 @@
+INDEX VERSION 1.134+C:\Users\lemin\Desktop\CodetamJava\.metadata\.plugins\org.eclipse.jdt.core
+2369276037.index
+2270773691.index
+1918552229.index
+4008917999.index
+2353986650.index
+1865797976.index
+1087627813.index
+3666786695.index
+2369747416.index
+2280548042.index
+57633198.index
+1737121256.index
+3727858671.index
+2264766888.index
+2192282681.index
+4155453536.index
+4149076306.index
+3940839797.index
+3959137331.index
+2301113154.index

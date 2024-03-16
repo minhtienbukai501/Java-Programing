@@ -1,0 +1,25 @@
+package lmtien.code;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		try {
+			Scanner scan = new Scanner(System.in);
+			Path path = Path.of("data.txt");
+			List<String> arr = Files.readAllLines(path);
+			
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	
+	}
+
+}

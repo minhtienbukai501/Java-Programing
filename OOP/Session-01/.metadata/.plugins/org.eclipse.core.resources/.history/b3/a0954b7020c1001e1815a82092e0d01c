@@ -1,0 +1,11 @@
+package hue.edu.vn.code;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Le minh tien ");
+		
+		String hoten = "Le Minh Tien";
+	}
+
+}

@@ -1,0 +1,28 @@
+package lmtien.java.code;
+
+import java.text.Format;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import javax.print.attribute.standard.DateTimeAtCompleted;
+
+public class Main {
+	public static void main(String[] args) {
+		List<Integer> arr = new ArrayList<Integer>();
+		for (int i = 0; i < 5; i++) {
+			
+		}
+		System.out.println(arr.);
+		
+	}
+}

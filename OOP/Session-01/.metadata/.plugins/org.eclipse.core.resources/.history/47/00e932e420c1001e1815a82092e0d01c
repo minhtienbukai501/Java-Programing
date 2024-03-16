@@ -1,0 +1,20 @@
+package hue.edu.vn.code;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Le minh tien ");
+		
+		String hoten = "Le Minh Tien";
+		String masinhvien = "18T1021316";
+		double gpa = 4.52;
+		String hoten1 = "Nguyen Viet Hai";
+		String masinhvien1 = "20T1021316";
+		double gpa1 = 5.512;
+		
+		String s = String.format("|%-20s|%-20s|%5.1f|", masinhvien, hoten, gpa);
+		String s = String.format("|%-20s|%-20s|%5.1f|", masinhvien1, hoten1, gpa1);
+		System.out.println(s);
+	}
+
+}

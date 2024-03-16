@@ -1,0 +1,11 @@
+package code;
+
+public class Main {
+
+	public static void main(String[] args) {
+		SinhVien sv = new SinhVien("18T","Le Minh Tien", "ECNTT", 2.33232);
+		System.out.println(sv);
+		
+	}
+
+}

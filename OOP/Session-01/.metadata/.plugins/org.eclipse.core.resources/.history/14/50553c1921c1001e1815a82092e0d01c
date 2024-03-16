@@ -1,0 +1,27 @@
+package hue.edu.vn.code;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		
+		String hoten = "Le Minh Tien";
+		String masinhvien = "18T1021316";
+		double gpa = 4.52;
+		String hoten1 = "Nguyen Viet Hai";
+		String masinhvien1 = "20T1021316";
+		double gpa1 = 5.512;
+		String hoten2 = "Nguuyen Dai Tuan";
+		String masinhvien2 = "21T1021316";
+		double gpa2 = 5.512;
+		
+		System.out.println(String.format("|%-20s|%-20s|%5.1f|", args));
+		String s = String.format("|%-20s|%-20s|%5.1f|", masinhvien, hoten, gpa);
+		String s1 = String.format("|%-20s|%-20s|%5.1f|", masinhvien1, hoten1, gpa1);
+		String s2 = String.format("|%-20s|%-20s|%5.1f|", masinhvien2, hoten2, gpa2);
+		System.out.println(s);
+		System.out.println(s1);
+		System.out.println(s2);
+	}
+
+}
